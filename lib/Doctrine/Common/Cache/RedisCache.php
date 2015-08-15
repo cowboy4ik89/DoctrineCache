@@ -33,7 +33,7 @@ class RedisCache extends CacheProvider
     /**
      * @var Redis|null
      */
-    private $redis;
+    /*private*/ protected $redis;
 
     /**
      * Sets the redis instance to use.
